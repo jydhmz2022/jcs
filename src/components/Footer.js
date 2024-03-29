@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../src/components/styles/appGlobal.css"
+import "./styles/appGlobal.css"
 import { useTranslation } from 'react-i18next';
 
 function Footer() {

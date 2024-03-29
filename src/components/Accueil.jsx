@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
-import '../../src/components/styles/appGlobal.css';
+import './styles/appGlobal.css';
 import homeData from "../data/homeData"
 
 function Accueil() {

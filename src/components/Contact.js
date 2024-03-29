@@ -1,7 +1,7 @@
 // Contact.js
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
-import "../components/styles/contact.css";
+import "./styles/contact.css";
 import Loading from './Loading';
 
 
@@ -9,6 +9,7 @@ function Contact() {
   
   const backendPort = process.env.BACKEND_PORT  || 5005
   const backendURL = `http://localhost:${backendPort}/send-email/send`
+  const firebaseURL =  "https://us-central1-jcs-group-37da8.cloudfunctions.net/sendEmail"
 
   const {t, i18n} = useTranslation()
   const inputPlaceholderClass = i18n.language === 'ar' || i18n.language === 'hs' ? 'placeholder-right' : '';
@@ -26,7 +27,7 @@ function Contact() {
     e.preventDefault();
     setIsLoading(true); 
     try {
-      const response = await fetch(backendURL, {
+      const response = await fetch(firebaseURL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

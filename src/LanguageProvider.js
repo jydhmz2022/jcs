@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { useDispatch, useSelector } from "react-redux";
-import i18n from "../src/components/locales/i18n";
+import i18n from "./components/locales/i18n";
 
 const LanguageProvider = ({ children }) => {
   const { i18n } = useTranslation();
