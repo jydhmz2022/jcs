@@ -10,7 +10,7 @@ function Accueil() {
     <div className="content"> 
       <h1>{t("Bienvenue sur notre site")}</h1>
       <p>{t("Découvrez nos services")}</p>
-
+      
       { homeData.map((service, index) => (  <div key={index} className="service">
          <h2 className="service-title">
             <a href="/contact" className="custom-link">{t(service.title)}</a>

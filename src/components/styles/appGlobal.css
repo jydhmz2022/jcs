@@ -217,6 +217,17 @@
       margin-left: 280px;
     }
   }
+
+  .turbo-button {
+    padding: 6px 20px;
+    background-color: #f4ecec;
+    color: #232222;
+    border-radius: 5px;
+    font-size: medium;
+    margin-top: 17px;
+    margin-left: 150px;
+  }
+  
   
   
   

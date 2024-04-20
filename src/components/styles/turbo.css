@@ -1,0 +1,85 @@
+.container {
+  width: 60%;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+form {
+  background-color: #f4ecec;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 40%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+input[type="tel"] {
+  width: 45%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #232222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #857676;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.section-divider {
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  border-top: 3px solid #232222;
+}
+
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #232222;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.logout-button:hover {
+  background-color: #857676;
+} 
