@@ -65,7 +65,7 @@ p {
 
 .section-divider {
   margin-top: 20px;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
   border-top: 3px solid #232222;
 }
 
@@ -82,4 +82,66 @@ p {
 }
 .logout-button:hover {
   background-color: #857676;
-} 
+}
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.app-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.app-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.app-card:hover {
+  transform: scale(1.05);
+}
+
+.app-card h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.app-card p {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.app-card button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.app-card button:hover {
+  background-color: #0056b3;
+}
+.app-logo {
+  width: 80%;
+  height: 50%;
+  margin-bottom: 10px;
+  border-radius: 10%;
+  border: 2px solid #ccc;
+  object-fit: cover;
+}
+.product-title {
+  margin-bottom: 30px;
+}
